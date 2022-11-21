@@ -1,0 +1,24 @@
+.aboutContainer {
+    background-image: url("../images/about.jpg");
+    font-family: inherit;
+    width: 100.5%;
+    height: 86.3%;
+    color: rgb(173, 16, 37);
+    position:absolute;
+    margin-left: 0;
+    transform:translate(-1%, -1%);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(253, 156, 156) 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.aboutContainer > p{
+    background-color: white;
+    transform: skewX(-10deg);
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
