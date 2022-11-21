@@ -58,9 +58,9 @@
     display: inline-block;
 }
 
-.cssContainer {
-    margin: auto;
-}
+/* .cssContainer {
+    
+} */
 
 .cssContainer > img{
     display: inline-block;
@@ -73,7 +73,7 @@
 
 .pythonContainer {
     transform: translate(10%);
-    width: 55%;
+    width: 60%;
     text-align: end;
 }
 
@@ -84,4 +84,9 @@
 
 .pythonContainer > p {
     display: inline-block;
+}
+
+.skillsContainer > div:hover {
+    text-shadow: 2px 2px red;
+    cursor: pointer;
 }
