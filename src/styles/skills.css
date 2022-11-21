@@ -1,0 +1,85 @@
+.skillsContainer {
+    background-image: url("../images/skills.jpg");
+    font-family: inherit;
+    width: 100.5%;
+    height: 86.3%;
+    color: rgb(173, 16, 37);
+    position:absolute;
+    margin-left: 0;
+    transform:translate(-1%, -1%);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(253, 156, 156) 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.reactContainer {
+    /* margin: auto; */
+    transform: translate(-30%);
+}
+
+.reactContainer > img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+.reactContainer > p {
+    display: inline-block;
+}
+
+.javaScriptContainer {
+    transform: translate(-20%);
+}
+
+.javaScriptContainer > img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+.javaScriptContainer > p {
+    display: inline-block;
+}
+
+.htmlContainer {
+    transform: translate(-10%);
+}
+
+.htmlContainer > img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+.htmlContainer > p {
+    display: inline-block;
+}
+
+.cssContainer {
+    margin: auto;
+}
+
+.cssContainer > img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+.cssContainer > p {
+    display: inline-block;
+}
+
+.pythonContainer {
+    transform: translate(10%);
+}
+
+.pythonContainer > img{
+    display: inline-block;
+    max-width: 50px;
+}
+
+.pythonContainer > p {
+    display: inline-block;
+}
