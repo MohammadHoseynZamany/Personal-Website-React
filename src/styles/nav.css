@@ -2,9 +2,12 @@
     display: flex;
     align-items:center;
     justify-content:space-between;
-    background-color: rgb(214, 239, 248);
-    border-radius: 10px;
     flex: 1fr 11fr;
+    transform: translate(-1%, -8%);
+    background-image: url("../images/nav.jpg");
+    padding-right: 2%;
+    padding-left: 2%;
+    background-size: 100% 100%;
 }
 
 .navContainer > img{
@@ -24,6 +27,8 @@
 }
 
 .navLink {
+    background-image: url("../images/Links.jpg");
+    background-size: 120% 120%;
     text-decoration: none;
     margin: 5px;
     color: red;
