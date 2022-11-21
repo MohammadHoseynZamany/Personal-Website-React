@@ -8,6 +8,7 @@
     padding-right: 2%;
     padding-left: 2%;
     background-size: 100% 100%;
+    width: 97.5%;
 }
 
 .navContainer > img{
@@ -19,11 +20,10 @@
 .linksContainer {
     display: flex;
     justify-content: space-between;
-    border: solid blue;
     margin-right: 8px;
     padding: 7px;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(121, 212, 224, 0.315);
 }
 
 .navLink {

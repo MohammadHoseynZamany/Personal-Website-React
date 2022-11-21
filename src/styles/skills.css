@@ -73,6 +73,8 @@
 
 .pythonContainer {
     transform: translate(10%);
+    width: 55%;
+    text-align: end;
 }
 
 .pythonContainer > img{
