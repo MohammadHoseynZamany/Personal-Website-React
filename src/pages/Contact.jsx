@@ -9,7 +9,7 @@ export default function Contact(){
     document.getElementById("title").innerHTML = "Contact"
     return (
         <div className="contactContainer">
-            <a href="https://github.com/mohammadhoseynzamany" id="gitHub" target="_blank">
+            {/* <a href="https://github.com/mohammadhoseynzamany" id="gitHub" target="_blank">
                 <img src={ GitHubLogo } />
                 <h3>https://github.com/mohammadhoseynzamany</h3>
             </a>
@@ -24,7 +24,7 @@ export default function Contact(){
             <a href="tel:09130833494" id="telegram" target="_blank">
                 <img src={ PhoneLogo } />
                 <h3>09130833494</h3>
-            </a>
+            </a> */}
         </div>
     )
 }
