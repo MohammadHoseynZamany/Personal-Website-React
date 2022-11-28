@@ -1,5 +1,4 @@
 import React from "react"
-import GitHubLogo from "../images/gitHub.jpg"
 import GmailLogo from "../images/gmail.png"
 import TelegramLogo from "../images/telegram.png"
 import PhoneLogo from "../images/phone.png"
@@ -10,7 +9,7 @@ export default function Contact(){
     return (
         <div className="contactContainer">
             <a href="https://github.com/mohammadhoseynzamany" id="gitHub" target="_blank">
-                <img src={ GitHubLogo } />
+                <h2>Github:</h2>
                 <h3>https://github.com/mohammadhoseynzamany</h3>
             </a>
             <a href="https://mohammadhoseynzamany@gmail.com" id="gmail" target="_blank">
