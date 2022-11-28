@@ -1,5 +1,5 @@
 import React from "react"
-import GitHubLogo from "../images/gitHub.svg"
+import GitHubLogo from "../images/gitHub.png"
 import GmailLogo from "../images/gmail.png"
 import TelegramLogo from "../images/telegram.png"
 import PhoneLogo from "../images/phone.png"

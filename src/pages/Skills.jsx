@@ -1,9 +1,9 @@
 import React from "react"
-import ReactLogo from "../images/reactLogo.svg"
-import JavaScriptLogo from "../images/javascriptLogo.svg"
-import HtmlLogo from "../images/htmlLogo.svg"
-import CssLogo from "../images/cssLogo.svg"
-import PythonLogo from "../images/pythonLogo.svg"
+import ReactLogo from "../images/reactLogo.png"
+import JavaScriptLogo from "../images/javascriptLogo.png"
+import HtmlLogo from "../images/htmlLogo.png"
+import CssLogo from "../images/cssLogo.png"
+import PythonLogo from "../images/pythonLogo.jpg"
 import "../styles/skills.css"
 
 export default function Skills(){
