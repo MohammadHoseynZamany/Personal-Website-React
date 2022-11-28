@@ -40,6 +40,12 @@
     text-decoration: none;
 }
 
+.contactContainer > a > h2 {
+    margin: auto;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
 #gitHub > img {
     margin-right: 2px
 }

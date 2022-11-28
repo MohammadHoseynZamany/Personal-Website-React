@@ -9,8 +9,8 @@ export default function Contact(){
     return (
         <div className="contactContainer">
             <a href="https://github.com/mohammadhoseynzamany" id="gitHub" target="_blank">
-                <h2>Github:</h2>
-                <h3>https://github.com/mohammadhoseynzamany</h3>
+                <h2>Github: </h2>
+                <h3> https://github.com/mohammadhoseynzamany</h3>
             </a>
             <a href="https://mohammadhoseynzamany@gmail.com" id="gmail" target="_blank">
                 <img src={ GmailLogo } />
