@@ -19,7 +19,6 @@ export default function Home(){
             document.getElementById("homeFirstText").innerHTML += txtFirst.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
-            console.log(i)
         }
         else if (i < txtFirst.length + txtSecond.length){
             document.getElementById("homeSecondText").innerHTML += txtSecond.charAt(i);
