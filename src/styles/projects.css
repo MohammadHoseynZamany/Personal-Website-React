@@ -16,3 +16,9 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+.projectsContainer > a {
+    margin: auto;
+    color: rgb(237, 38, 217);
+    font-size: 40px;
+}
