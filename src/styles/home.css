@@ -1,18 +1,18 @@
 .homeContainer {
     background-image: url("../images/home.jpg");
     font-family: inherit;
-    width: 100.5%;
-    height: 86.3%;
+    width: 100vw;
+    height: 85vh;
     position:absolute;
     margin-left: 0;
     transform:translate(-1%, -1%);
     text-align: center;
-    font-size: 25px;
+    font-size: 3vw;
     text-shadow: rgba(15, 0, 0, 0.705) 5px 5px 5px;
     display: grid;
     grid-template-columns: 1fr;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100vw 100vh;
     display: grid;
     grid-template-columns: 1fr;
     color: rgb(223, 19, 46);

@@ -1,13 +1,13 @@
 .contactContainer {
     background-image: url("../images/contact.jpg");
     font-family: inherit;
-    width: 100.5%;
-    height: 86.3%;
+    width: 100vw;
+    height: 85vh;
     position:absolute;
     margin-left: 0;
-    transform:translate(-1%, -1%);
+    transform:translate(-1vw, -1vh);
     text-align: center;
-    font-size: 20px;
+    font-size: 3vw;
     text-shadow: rgba(15, 0, 0, 0.705) 5px 5px 5px;
     display: grid;
     grid-template-columns: 1fr;
@@ -27,12 +27,11 @@
     margin: auto;
     display: flex;
     text-align: end;
-    padding-right: 10px
 }
 
 .contactContainer > a > img {
-    max-height: 70px;
-    margin-right: 15px;
+    max-height: 8vh;
+    margin-right: 1vw;
 }
 
 .contactContainer > a > h3 {
@@ -42,14 +41,6 @@
 
 .contactContainer > a > h2 {
     margin: auto;
-    margin-right: 10px;
-    padding-bottom: 10px;
-}
-
-#gitHub > img {
-    margin-right: 2px
-}
-
-#gitHub {
-    padding-right: 100px;
+    margin-right: 1vw;
+    padding-bottom: 2vh;
 }

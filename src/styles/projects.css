@@ -1,13 +1,13 @@
 .projectsContainer {
     background-image: url("../images/projects.jpg");
     font-family: inherit;
-    width: 100.5%;
-    height: 86.3%;
+    width: 100vw;
+    height: 85vh;
     position:absolute;
     margin-left: 0;
-    transform:translate(-1%, -1%);
+    transform:translate(-1vw, -1vh);
     text-align: center;
-    font-size: 20px;
+    font-size: 5vw;
     text-shadow: rgba(15, 0, 0, 0.705) 5px 5px 5px;
     display: grid;
     grid-template-columns: 1fr;
@@ -20,5 +20,5 @@
 .projectsContainer > a {
     margin: auto;
     color: rgb(237, 38, 217);
-    font-size: 40px;
+    font-size: 6vw;
 }

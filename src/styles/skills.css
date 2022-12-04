@@ -1,14 +1,14 @@
 .skillsContainer {
     background-image: url("../images/skills.jpg");
     font-family: inherit;
-    width: 100.5%;
-    height: 86.3%;
+    width: 100vw;
+    height: 85vh;
     color: rgb(173, 16, 37);
     position:absolute;
     margin-left: 0;
     transform:translate(-1%, -1%);
     text-align: center;
-    font-size: 30px;
+    font-size: 4vw;
     text-shadow: rgb(253, 156, 156) 5px 5px 5px;
     display: grid;
     grid-template-columns: 1fr;
@@ -19,13 +19,14 @@
 }
 
 .reactContainer {
-    /* margin: auto; */
-    transform: translate(-30%);
+    margin-top: 1vh;
+    transform: translate(-30vw);
 }
 
 .reactContainer > img{
     display: inline-block;
-    max-width: 50px;
+    max-width: 8vw;
+    margin-right: 2vw;
 }
 
 .reactContainer > p {
@@ -33,12 +34,12 @@
 }
 
 .javaScriptContainer {
-    transform: translate(-20%);
+    transform: translate(-20vw);
 }
 
 .javaScriptContainer > img{
     display: inline-block;
-    max-width: 50px;
+    max-width: 9vw;
 }
 
 .javaScriptContainer > p {
@@ -46,25 +47,21 @@
 }
 
 .htmlContainer {
-    transform: translate(-10%);
+    transform: translate(-10vw);
 }
 
 .htmlContainer > img{
     display: inline-block;
-    max-width: 50px;
+    max-width: 9vw;
 }
 
 .htmlContainer > p {
     display: inline-block;
 }
 
-/* .cssContainer {
-    
-} */
-
 .cssContainer > img{
     display: inline-block;
-    max-width: 50px;
+    max-width: 9vw;
 }
 
 .cssContainer > p {
@@ -72,14 +69,14 @@
 }
 
 .pythonContainer {
-    transform: translate(10%);
-    width: 60%;
+    transform: translate(10vw);
+    width: 60vw;
     text-align: end;
 }
 
 .pythonContainer > img{
     display: inline-block;
-    max-width: 50px;
+    max-width: 9vw;
 }
 
 .pythonContainer > p {
